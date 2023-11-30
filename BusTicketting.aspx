@@ -143,7 +143,7 @@
                 </tr>
                 <tr>
                     <td class="auto-style2" style="text-align: center;">
-                        <asp:Button ID="btnBookTkt" runat="server" Text="Book Ticket" Width="113px" OnClick="btnBookTkt_Click" OnClientClick="javascript:alert('You are now will be directed to the booking confirmation page')" />
+                        <asp:Button ID="btnBookTkt" runat="server" Text="Book Ticket" Width="113px" OnClick="btnBookTkt_Click" OnClientClick="javascript:alert('You are now will be directed to the booking confirmation page')" PostBackUrl="./ConfirmBooking.aspx" />
                     </td>
                     <td style="text-align: center;" colspan="2">
                         <asp:Button ID="btnCancel" runat="server" Text="Cancel" OnMouseOver="this.value='Click if you confirm to reset selection'" OnMouseOut="this.value='Cancel'" />
